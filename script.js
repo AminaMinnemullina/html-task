@@ -11,7 +11,7 @@ themeBtn.addEventListener('click', function () {
 // ===== Кнопка «Показать контакт»: показывает и прячет почту =====
 // (Здесь спрятан БАГ №3 из index.html: id кнопки не совпадает.
 //  Открой консоль браузера — F12 → Console — и прочитай ошибку.)
-const contactBtn = document.getElementById('contactBtn');
+const contactBtn = document.getElementById('contact-btn');
 const contact = document.getElementById('contact');
 
 contactBtn.addEventListener('click', function () {
